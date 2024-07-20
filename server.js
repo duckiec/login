@@ -24,8 +24,8 @@ app.use(session({
 const transporter = nodemailer.createTransport({
     service: 'gmail',  // Use Gmail as your SMTP service
     auth: {
-        user: 'duckifriend@gmail.com',  // Replace with your Gmail address
-        pass: 'q3SUgwbHvJUX5n'    // Replace with your Gmail password
+        user: 'GMAIL_USER',  // Replace with your Gmail address
+        pass: 'GMAIL_PASSWORD'    // Replace with your Gmail password
     }
 });
 
